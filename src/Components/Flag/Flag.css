@@ -1,0 +1,71 @@
+
+
+
+.btn {
+    margin: 30px auto;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+
+.btn button {
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    background: #40A2D8;
+    color: white;
+    font-family: 'Poppins';
+    transform: scale(1.03);
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.btn button:hover {
+    background:#0B60B0;
+    border-radius: 8px;
+}
+
+.btn button:active {
+    background: #000000;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.info > div {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px; 
+  }
+  
+
+  .flag-icon {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+    width: 100%; /* Ensure the image takes the full width of the container */
+}
+
+.flag-icon img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+}
+
+
+.info-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; /* Adjust the gap between boxes */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    width: 100%;
+}
+
+.info-boxes > div {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
